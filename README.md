@@ -1,5 +1,5 @@
 # Python for Biomedical Data Statistical Analysis
-### CCU 2020 Autumn Course
+### CCU 2020 Fall Course
 Instructor: Cheng-Chung, Chou
 
 ## Project 1: Finding Restriction Enzyme Cut Sites in a DNA Sequence and Identifying Suitable Enzymes for Cloning 🧫
