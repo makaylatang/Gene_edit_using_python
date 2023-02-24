@@ -10,7 +10,7 @@ Furthermore, the project also requires identifying suitable `restriction enzymes
 
 📂 File needed: `hsp70.txt`
 
-Variables required: `enzymes` (can be set to any data type)
+🌟 Variables required: `enzymes` (can be set to any data type)
 
 ## Project 2: Gene Expression Analysis 🧬
 
@@ -28,7 +28,7 @@ We are required to use clustering methods to determine which subtype of lung can
 
 📂 Files needed: `clustered.csv`, `unknown.csv`
 
-The functions that may be used include `.join(), .concat(), and .append()`.
+💡 The functions that may be used include `.join(), .concat(), and .append()`.
 
 ## Project 3. Similarity comparison 🦇
 
@@ -42,9 +42,9 @@ Both `DNA` and `protein` similarity scores are visualized by plotting them again
 
 📂 Files needed: `hsa_virus.txt`, `bat_virus.txt`
 
-Variable used: `codon_table`
+🌟 Variable used: `codon_table`
 
-Recommended to use one of the four random functions in numpy.
+💡 Recommended to use one of the four random functions in numpy.
 
 
 
