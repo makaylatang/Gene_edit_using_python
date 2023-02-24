@@ -9,6 +9,7 @@ This project involves developing a program that can identify restriction enzyme 
 Furthermore, the project also requires identifying suitable `restriction enzymes` for cloning the DNA sequence into a plasmid with a multiple cloning site (MCS). Given that the CDS of the MCS is from position 84 to 2123, the program should output the names of the enzymes in the "enzymes" variable that have cut sites within this range.
 
 File required: `hsp70.txt`
+
 Variables required: `enzymes` (can be set to any data type)
 
 ## Project 2: Gene Expression Analysis
@@ -34,7 +35,9 @@ The same process is repeated for the `protein` sequences. Both `bat_virus` and `
 Both `DNA` and `protein` similarity scores are visualized by plotting them against the number of mutations. The horizontal axis represents the number of mutations, and the vertical axis represents the similarity score.
 
 Files needed: `hsa_virus.txt`, `bat_virus.txt`
+
 Variable used: `codon_table`
+
 Recommended to use one of the four random functions in numpy.
 
 
