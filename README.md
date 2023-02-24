@@ -25,6 +25,20 @@ We are required to use clustering methods to determine which subtype of lung can
 
 ## Project 3. Similarity comparison
 
+In this project, the DNA sequences of bat and human coronaviruses are stored in `bat_virus.txt` and `hsa_virus.txt files`, respectively, in the `Fasta` format. After the user enters the file names, the DNA sequences are read from the files.
+
+For the `bat_virus` sequence, ten thousand mutations are performed, where each mutation can occur at any point and can result in any nucleotide (A, T, C, or G). Starting from the 0th mutation, every 200th mutation result is compared with the `hsa_virus` sequence. If the nucleotides are the same, the score is increased by 1. The final similarity score is obtained by dividing the total score by the sequence length and multiplying by 100.
+
+The same process is repeated for the `protein` sequences. Both `bat_virus` and `hsa_virus` are translated into proteins, and the resulting `bat_prot` sequence after each mutation is compared with the `hsa_prot` sequence. If the amino acids are the same, the score is increased by 1. The final similarity score is obtained by dividing the total score by the protein sequence length and multiplying by 100.
+
+Both `DNA` and `protein` similarity scores are visualized by plotting them against the number of mutations. The horizontal axis represents the number of mutations, and the vertical axis represents the similarity score.
+
+Files needed: `hsa_virus.txt`, `bat_virus.txt`
+Variable used: `codon_table`
+Recommended to use one of the four random functions in numpy.
+
+
+
 
 
 
